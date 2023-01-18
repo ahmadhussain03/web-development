@@ -1,0 +1,42 @@
+/* External CSS */
+
+/* Tag Selectors */
+
+h1 {
+    background-color: blanchedalmond;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    /* background-color: brown; */
+}
+/* 
+img {
+    width: 100px;
+} */
+
+/* Class & ID Selectors */
+
+.animal {
+    width: 200px;
+    height: 200px;
+}
+
+.circular-image {
+    border-radius: 50%;
+}
+
+#heading {
+    font-weight: 400;
+    background-color: blue;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.hero {
+    width: 300px;
+    border: 4px solid gray;
+    border-radius: 10px;
+}
