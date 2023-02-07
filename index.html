@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centering Element</title>
+    <style>
+        body {
+            background-image: url("assets/car-background.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        h1 {
+            color: antiquewhite;
+        }
+
+        .container {
+            width: 50%;
+            height: 200px;
+            margin: 20% auto 0;
+            text-align: center;
+        }
+
+        .backdrop {
+            background-color: rgba(0, 0, 0, 0.8);
+            position: fixed;
+            right: 0;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            z-index: -1;
+        }
+    </style>
+</head>
+<body>
+    <div class="backdrop"></div>
+    <div class="container">
+        <h1>Welcome To Cars</h1>
+        <button>Get Started</button>
+    </div>
+
+</body>
+</html>
